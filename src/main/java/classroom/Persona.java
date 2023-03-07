@@ -10,6 +10,11 @@ public class Persona {
         totalPersonas = 0;
        
     }
+    public Persona(){ // Constructor faltante, se necesitaba un constuctor sin parametro en la clase Taller4
+        this.cedula=0;
+        this.nombre="";
+        totalPersonas++;
+    }
 
     public Persona(long cedula, String nombre) {
         this.cedula = cedula;
@@ -32,6 +37,7 @@ public class Persona {
     public Persona(String nombre) {
         this.nombre = nombre;
         this.cedula=1;
+        
         totalPersonas++;
     }
     

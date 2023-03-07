@@ -5,7 +5,7 @@ public class Grupo {
     public Persona[] estudiantes; //lista
     public Persona profesor;
     public Asignatura asignatura;
-    public int codigo = 0;  //constante
+    public int codigo = 0;  // no es una constante
     public String horario;
 
     public Grupo(Persona[] estudiantes, Persona profesor, Asignatura asignatura, int codigo, String horario) {
